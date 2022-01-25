@@ -1,0 +1,46 @@
+	//!plants//
+	.plants {
+		position: relative;
+		width: 100%;
+		padding: 50px 0;
+		margin-bottom: 60px;
+		.plants__content {
+			display: grid;
+			padding-top: 50px;
+			justify-items: start;
+			position: relative;
+			z-index: 2;
+			.plants__title {
+				text-align: center;
+				font-weight: bold;
+				font-size: 40px;
+				line-height: cacl(50/40 * 100%);
+				color: #ffffff;
+				margin-bottom: 25px;
+			}
+			.plants__button {
+				display: flex;
+				justify-self: center;
+				justify-content: center;
+				align-items: center;
+				background: #4592ff;
+				border-radius: 20px;
+				min-height: 40px;
+				padding: 0 25px;
+				margin-bottom: 55px;
+				.button__txt {
+					font-size: 14px;
+					line-height: calc(20 / 14 * 100%);
+					color: #ffffff;
+				}
+			}
+		}
+		.plants__banner {
+			position: absolute;
+			z-index: 1;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	}
