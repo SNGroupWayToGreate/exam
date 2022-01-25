@@ -70,9 +70,6 @@ export default function Hot() {
 							Readers' Choice winners: Your wine country favorites
 						</div>
 						<span class="column1__button button">
-							<div class="button__icon _ibg">
-								<img crs='' />
-							</div>
 							<div class="button__txt">Watch photos</div>
 							<div class="button__qty">{card.watches}</div>
 						</span>

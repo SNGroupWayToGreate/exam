@@ -70,8 +70,11 @@ const categoriesElem = categories.map((category) => {
 			</div>
 			<div class="categories__title">{category.title}</div>
 			<div class="categories__body">{category.body}</div>
-			<div class="categories__date">Oct {category.date}</div>
-
+			<div class="user_info">
+				<div className='date'>Sept {category.date}</div>
+				<div className='comment'>342</div>
+				<div className='like'>83</div>
+			</div>
 		</div>
 	</li>
 })

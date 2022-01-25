@@ -122,6 +122,10 @@
 							& > *:not(:last-child) {
 								margin-right: 6px;
 							}
+							.comments__qty {
+								background: url("../../images/Comment.png") left no-repeat;
+								padding-left: 25px;
+							}
 						}
 					}
 				}
@@ -177,6 +181,23 @@
 						font-weight: bold;
 					}
 					.popular__user {
+						.user_info {
+							display: flex;
+							;
+							& > div:not(:last-child) {
+								margin-right: 5px;
+							}
+							.date {
+							}
+							.comment {
+								background: url("../../images/Comment.png") left no-repeat;
+								padding-left: 25px;
+							}
+							.like {
+								background: url("../../images/Heart.png") left no-repeat;
+								padding-left: 25px;
+							}
+						}
 					}
 				}
 			}

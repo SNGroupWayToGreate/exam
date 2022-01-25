@@ -96,7 +96,9 @@ export default function Grid() {
 											By Sarah Jenkins
 										</div>
 										<div class="user_info user__job">
-											Sept 26
+											<div className='date'>Sept 26</div>
+											<div className='comment'>26</div>
+											<div className='like'>26</div>
 										</div>
 									</div>
 								</div>

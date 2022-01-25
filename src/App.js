@@ -1,25 +1,14 @@
 import './App.scss'
 import hamburger from './images/Hamburger.png'
-///////////////////////////////////////////////////
-
-////////////////////////////////////////////////////
 import image from './images/image.png'
 import man from './images/Man.png'
 import search from './images/Search.png'
 import sun from './images/Sun.png'
 import image1 from './images/image-252.png'
-
-////////////////////////////////////////////////////////////////
-
-////////////////////////////////////////////////////////////////
-
-////////////////////////////////////////////////////////////////////
 import Facebook from './images/social/Facebook.svg'
 import Instagram from './images/social/Instagram.svg'
 import Twitter from './images/social/Twitter.svg'
 import YouTube from './images/social/YouTube.svg'
-/////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
 import Hot from './Components/Hot/Hot'
 import Grid from './Components/Grid/Grid'
 import Categories from './Components/Categories/Categories'
@@ -51,7 +40,6 @@ function App() {
 								</div>
 								<input class="search__input" placeholder='Search...' />
 							</div>
-
 						</div>
 						<div class="top__rightcolumn">
 							<div className='top__subscribe subscribe'>

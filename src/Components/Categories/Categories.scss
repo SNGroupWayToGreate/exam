@@ -80,6 +80,25 @@
 						color: #4b5157;
 						margin-bottom: 20px;
 					}
+					.user_info {
+						display: flex;
+						& > div:not(:last-child) {
+							margin-right: 5px;
+						}
+						.date {
+							color: grey;
+						}
+						.comment {
+							background: url("../../images/Comment.png") 0 0 no-repeat;
+							padding-left: 20px;
+							color: grey;
+						}
+						.like {
+							background: url("../../images/Heart.png") 0 0 no-repeat;
+							padding-left: 20px;
+							color: grey;
+						}
+					}
 					.categories__date {
 						font-size: 12px;
 						line-height: calc(15 / 12 * 100%);
